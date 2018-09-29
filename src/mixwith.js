@@ -240,7 +240,7 @@ class MixinBuilder {
   /**
    * Applies `mixins` in order to the superclass given to `mix()`.
    *
-   * @param {Array.<Mixin>} mixins
+   * @param {...<Mixin>} mixins
    * @return {Function} a subclass of `superclass` with `mixins` applied
    */
   with(...mixins) {
